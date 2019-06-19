@@ -1,3 +1,5 @@
+require 'pry'
+
 def starts_with_a_vowel?(word)
   word.match(/\b[aeiouAEIOU]/) ? true : false
 end
@@ -17,3 +19,7 @@ end
 def valid_phone_number?(phone)
 
 end
+
+words_string = "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary"
+
+binding.pry
