@@ -20,6 +20,6 @@ def valid_phone_number?(phone)
 
 end
 
-words_string = "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary"
+valid_numbers = ["28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"]
 
 # binding.pry
