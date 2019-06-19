@@ -17,7 +17,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.scan(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/) ? true : false
+  phone.scan(/^[(]?\d{3}[)]?[\s]?\d{3}[\s.-]?\d{4}$/) ? true : false
 end
 
 valid_numbers = ["28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"]
